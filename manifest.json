@@ -1,0 +1,50 @@
+{
+ "format": "hr-bench-annotation/1-submission",
+ "kit_version": "2026-11-04-fb75d8a+changes",
+ "schema_version": "oct26-v20",
+ "application_id": "715",
+ "exported_at": "2026-11-08T11:41:43+00:00",
+ "tasks": [
+  {
+   "build_id": "b004",
+   "status": "finished",
+   "complete": true,
+   "steps_answered": 10,
+   "steps_total": 10,
+   "active_seconds": 1545,
+   "task_fingerprint": "sha256:94cf6d4d39d9fe96ae223819d9f92f1c68afa3af0448066c4288e7bfe7382e5f",
+   "answers_made_on": "sha256:94cf6d4d39d9fe96ae223819d9f92f1c68afa3af0448066c4288e7bfe7382e5f"
+  },
+  {
+   "build_id": "b011",
+   "status": "finished",
+   "complete": true,
+   "steps_answered": 9,
+   "steps_total": 9,
+   "active_seconds": 570,
+   "task_fingerprint": "sha256:014e6460cb00f2ccf1a25e50050187d4ec4683111edd9d4ef6aed53f1f30b2c6",
+   "answers_made_on": "sha256:014e6460cb00f2ccf1a25e50050187d4ec4683111edd9d4ef6aed53f1f30b2c6"
+  },
+  {
+   "build_id": "b015",
+   "status": "finished",
+   "complete": true,
+   "steps_answered": 30,
+   "steps_total": 30,
+   "active_seconds": 1655,
+   "task_fingerprint": "sha256:f727c19618a08d5c3cb4ab69e058dcd332cf2fe31f6cc3e5e1ec601325b5978e",
+   "answers_made_on": "sha256:f727c19618a08d5c3cb4ab69e058dcd332cf2fe31f6cc3e5e1ec601325b5978e"
+  }
+ ],
+ "unfinished": [],
+ "files": {
+  "annotator-metadata.json": "sha256:f7a8a9fdc0fb344b4c968445952b36fb981092e0d10069a7fa914e934a8ac666",
+  "b004.json": "sha256:a166f5f86b33613bd60e144f4f2351a52e0cd01ba5a577f83d3812dc0994ad72",
+  "b011.json": "sha256:5c82f49bc665e04f28aec4c1f0fe3eaa47e8064af122a1b28841983cdb0167f1",
+  "b015.json": "sha256:c208b6eeb56bb7a2545a6528e627d46007f9b6b60b7fce73641f5de8a3cb9616"
+ },
+ "pledge": {
+  "text": "I labelled these builds myself. I did not use ChatGPT or any other AI tool to produce my answers.",
+  "agreed_at": "2026-11-08T11:41:43+00:00"
+ }
+}

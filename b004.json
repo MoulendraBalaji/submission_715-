@@ -1,0 +1,326 @@
+{
+ "format": "hr-bench-annotation/1",
+ "schema_version": "oct26-v20",
+ "application_id": "715",
+ "build_id": "b004",
+ "task_fingerprint": "sha256:94cf6d4d39d9fe96ae223819d9f92f1c68afa3af0448066c4288e7bfe7382e5f",
+ "status": "finished",
+ "started_at": "2026-11-05T12:47:26+00:00",
+ "updated_at": "2026-11-05T13:11:49+00:00",
+ "finished_at": "2026-11-05T13:11:49+00:00",
+ "active_seconds": 1545,
+ "active_seconds_by_step": {
+  "S1.1": 480,
+  "S1.2": 315,
+  "S1.3": 90,
+  "S1.4": 130,
+  "S1.5": 80,
+  "S1.6": 55,
+  "S1.9": 55,
+  "S1.10": 25,
+  "S1.11": 35,
+  "S1.12": 55,
+  "wrap": 225
+ },
+ "answers": {
+  "session": {
+   "steering_quality": 3,
+   "behaviours": {
+    "clarified_goal": {
+     "answer": "Yes",
+     "step": "S1.3"
+    },
+    "set_mode": {
+     "answer": "No",
+     "step": null
+    },
+    "gave_examples": {
+     "answer": "Yes",
+     "step": "S1.5"
+    },
+    "set_format": {
+     "answer": "Yes",
+     "step": "S1.6"
+    },
+    "added_context": {
+     "answer": "Yes",
+     "step": "S1.6"
+    },
+    "questioned_reasoning": {
+     "answer": "Yes",
+     "step": "S1.10"
+    },
+    "asked_approach": {
+     "answer": "Yes",
+     "step": "S1.4"
+    },
+    "checked_claims": {
+     "answer": "Yes",
+     "step": "S1.11"
+    },
+    "refined": {
+     "answer": "Yes",
+     "step": "S1.5"
+    }
+   },
+   "agent_quality": 3,
+   "involvement": "The agent did it alone",
+   "claims_match": "Mostly",
+   "rationale": "the agent really answered corrrectly according to the prompt given by the user though most of the prompt's are ai tool given. but agent convinctely asked the user for inputs and modified the output according to it ",
+   "confidence": "Medium"
+  },
+  "steps": {
+   "S1.1": {
+    "effect": "Helped",
+    "human_corrected": true,
+    "reverted": true,
+    "checked": "Both",
+    "asked": "Yes, and it was needed",
+    "should_have_asked": false,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.2": {
+    "effect": "Neutral",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Ran tests",
+    "asked": "No",
+    "should_have_asked": true,
+    "should_have_asked_note": "row timestamps decision should be made by the user itself",
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.3": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Ran tests",
+    "asked": "Yes, and it was needed",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.4": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Ran tests",
+    "asked": "Yes, and it was needed",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.5": {
+    "effect": "Neutral",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Ran tests",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": false,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.6": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Ran tests",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.9": {
+    "effect": "Hurt",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Neither",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.10": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Ran tests",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.11": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Ran tests",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.12": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Ran tests",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   }
+  },
+  "prompts": {
+   "S1.1": {
+    "reaction": "Not replying to the agent (first prompt, or a new topic)",
+    "intent": [
+     "Planning or design",
+     "Building a feature",
+     "Testing",
+     "Limiting scope",
+     "Security or secrets"
+    ],
+    "source": "Typed by the user",
+    "comment": null
+   },
+   "S1.2": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Testing",
+     "Docs or packaging",
+     "Cost or model choice",
+     "Judges or scoring"
+    ],
+    "source": "Inserted by the coding tool, not typed by a person",
+    "comment": null
+   },
+   "S1.3": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Planning or design",
+     "Building a feature",
+     "Cost or model choice",
+     "Judges or scoring"
+    ],
+    "source": "Pasted from another AI",
+    "comment": null
+   },
+   "S1.4": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Planning or design",
+     "Docs or packaging",
+     "Cost or model choice",
+     "Security or secrets"
+    ],
+    "source": "Pasted from another AI",
+    "comment": null
+   },
+   "S1.5": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Planning or design",
+     "Testing",
+     "Debugging",
+     "Cost or model choice",
+     "Judges or scoring"
+    ],
+    "source": "Pasted from another AI",
+    "comment": null
+   },
+   "S1.6": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Building a feature",
+     "Testing",
+     "Docs or packaging",
+     "Limiting scope",
+     "Cost or model choice"
+    ],
+    "source": "Pasted from another AI",
+    "comment": null
+   },
+   "S1.9": {
+    "reaction": "Fixing something the agent got wrong",
+    "intent": [
+     "Limiting scope",
+     "Cost or model choice",
+     "Judges or scoring"
+    ],
+    "source": "Typed by the user",
+    "comment": null
+   },
+   "S1.10": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Testing",
+     "Debugging",
+     "Docs or packaging",
+     "Cost or model choice",
+     "Security or secrets",
+     "Judges or scoring"
+    ],
+    "source": "Typed by the user",
+    "comment": null
+   },
+   "S1.11": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Planning or design",
+     "Testing",
+     "Docs or packaging",
+     "Limiting scope",
+     "Cost or model choice"
+    ],
+    "source": "Pasted from another AI",
+    "comment": null
+   },
+   "S1.12": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Planning or design",
+     "Testing",
+     "Debugging",
+     "Docs or packaging",
+     "Limiting scope",
+     "Judges or scoring"
+    ],
+    "source": "Pasted from another AI",
+    "comment": null
+   }
+  },
+  "failures": null,
+  "flags": {}
+ }
+}

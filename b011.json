@@ -1,0 +1,284 @@
+{
+ "format": "hr-bench-annotation/1",
+ "schema_version": "oct26-v20",
+ "application_id": "715",
+ "build_id": "b011",
+ "task_fingerprint": "sha256:014e6460cb00f2ccf1a25e50050187d4ec4683111edd9d4ef6aed53f1f30b2c6",
+ "status": "finished",
+ "started_at": "2026-11-08T08:24:58+00:00",
+ "updated_at": "2026-11-08T08:31:45+00:00",
+ "finished_at": "2026-11-08T08:31:45+00:00",
+ "active_seconds": 570,
+ "active_seconds_by_step": {
+  "S1.1": 155,
+  "final": 35,
+  "wrap": 120,
+  "S1.2": 35,
+  "S1.3": 50,
+  "S1.4": 30,
+  "S1.5": 30,
+  "S2.2": 20,
+  "S2.3": 15,
+  "S2.4": 25,
+  "S2.5": 45
+ },
+ "answers": {
+  "session": {
+   "steering_quality": 3,
+   "behaviours": {
+    "clarified_goal": {
+     "answer": "Yes",
+     "step": "S1.2"
+    },
+    "set_mode": {
+     "answer": "Yes",
+     "step": "S1.4"
+    },
+    "gave_examples": {
+     "answer": "No",
+     "step": null
+    },
+    "set_format": {
+     "answer": "Yes",
+     "step": "S2.2"
+    },
+    "added_context": {
+     "answer": "No",
+     "step": null
+    },
+    "questioned_reasoning": {
+     "answer": "No",
+     "step": null
+    },
+    "asked_approach": {
+     "answer": "No",
+     "step": null
+    },
+    "checked_claims": {
+     "answer": "No",
+     "step": null
+    },
+    "refined": {
+     "answer": "No",
+     "step": null
+    }
+   },
+   "agent_quality": 4,
+   "involvement": "The agent did it alone",
+   "claims_match": "Mostly",
+   "rationale": "basically user mostly asked about the docs, repo structural questions only so didn't drive the agent well",
+   "confidence": "Medium"
+  },
+  "steps": {
+   "S1.1": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Ran an accuracy check",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.2": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Neither",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.3": {
+    "effect": "Neutral",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Ran tests",
+    "asked": null,
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.4": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Neither",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S1.5": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Neither",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S2.2": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Neither",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S2.3": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Neither",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S2.4": {
+    "effect": "Helped",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Neither",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   },
+   "S2.5": {
+    "effect": "Hurt",
+    "human_corrected": null,
+    "reverted": null,
+    "checked": "Neither",
+    "asked": "No",
+    "should_have_asked": null,
+    "should_have_asked_note": null,
+    "failure": null,
+    "failure_types": null,
+    "noticed": null,
+    "note": null
+   }
+  },
+  "prompts": {
+   "S1.1": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Building a feature",
+     "Testing",
+     "Docs or packaging",
+     "Cost or model choice"
+    ],
+    "source": "Pasted from another AI",
+    "comment": null
+   },
+   "S1.2": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Planning or design",
+     "Docs or packaging",
+     "Limiting scope",
+     "Judges or scoring"
+    ],
+    "source": "Pasted from another AI",
+    "comment": null
+   },
+   "S1.3": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Docs or packaging",
+     "Limiting scope",
+     "Cost or model choice",
+     "Judges or scoring"
+    ],
+    "source": "Typed by the user",
+    "comment": null
+   },
+   "S1.4": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Testing",
+     "Debugging",
+     "Docs or packaging",
+     "Cost or model choice"
+    ],
+    "source": "Pasted from another AI",
+    "comment": null
+   },
+   "S1.5": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Docs or packaging",
+     "Security or secrets"
+    ],
+    "source": "Typed by the user",
+    "comment": null
+   },
+   "S2.2": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Docs or packaging"
+    ],
+    "source": "Typed by the user",
+    "comment": null
+   },
+   "S2.3": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Docs or packaging"
+    ],
+    "source": "Typed by the user",
+    "comment": null
+   },
+   "S2.4": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Docs or packaging"
+    ],
+    "source": "Pasted from another AI",
+    "comment": null
+   },
+   "S2.5": {
+    "reaction": "Accepting it and moving on (ok, yes, continue)",
+    "intent": [
+     "Testing",
+     "Debugging",
+     "Cost or model choice",
+     "Judges or scoring"
+    ],
+    "source": "Typed by the user",
+    "comment": null
+   }
+  },
+  "failures": null,
+  "flags": {}
+ }
+}
